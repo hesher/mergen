@@ -8,7 +8,7 @@ function race(promises) {
   );
 }
 
-export async function* mergen(...gens) {
+exports.mergen = async function* mergen(...gens) {
   const promises = gens.map((gen, index) =>
     gen.next().then(p => ({...p, gen}))
   );
@@ -27,4 +27,4 @@ export async function* mergen(...gens) {
       return value;
     });
   }
-}
+};

@@ -1,0 +1,21 @@
+{
+  "name": "mergen",
+  "version": "1.0.0",
+  "description":
+    "An async generator that, given n async generators, yields the values from the n generators, in the order in which they arrived.",
+  "main": "mergen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesher/mergen.git"
+  },
+  "keywords": ["async", "generator", "javascript"],
+  "author": "Ben Katz <ben.katz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hesher/mergen/issues"
+  },
+  "homepage": "https://github.com/hesher/mergen#readme"
+}

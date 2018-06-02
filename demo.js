@@ -1,4 +1,4 @@
-import {mergen} from './mergen.js';
+const {mergen} = require('./mergen.js');
 
 function timer(time = 500) {
   return new Promise(resolve => setTimeout(() => resolve(), time));
