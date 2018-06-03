@@ -5,7 +5,7 @@ An async generator that, given n async generators, yields the values from the n 
 usage:
 
 ```
-const {mergen} = require('mergen.js');
+const {mergen} = require('mergen');
 
 function timer(time = 500) {
   return new Promise(resolve => setTimeout(() => resolve(), time));
